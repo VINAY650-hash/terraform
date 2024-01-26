@@ -15,7 +15,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                           git https://github.com/VINAY650-hash/terraform
+                           https://github.com/VINAY650-hash/terraform.git
                         }
                     }
                 }
